@@ -4,7 +4,7 @@ type Props = {}
 
 function App({}: Props) {
   return (
-    <div>App</div>
+    <div>App (.env) enabled</div>
   )
 }
 

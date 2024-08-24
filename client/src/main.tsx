@@ -12,6 +12,7 @@ if(rootElement)
 
 
 root.render(
+    // Without clientId Thirdweb does not works
     <ThirdwebProvider clientId={import.meta.env.CLIENT_ID} activeChain={ChainId}>
         <Router>
             < App/>
